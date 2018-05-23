@@ -25,3 +25,21 @@ function variableScopeTestUsingLet(){
 }
 
 variableScopeTestUsingLet();
+
+//another example
+
+//without using 'let'
+for(var i = 0; i < 10; i++){
+    console.log('i inside the loop = ', i);
+}
+
+console.log('i outside the loop', i);
+
+console.log();
+
+//with using 'let'
+for(let j = 0; j < 10; j++){
+    console.log('i inside the loop = ', i);
+}
+
+console.log('i outside the loop = ', j);
