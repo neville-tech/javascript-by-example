@@ -14,3 +14,8 @@ setOfUniqueValues.delete(3);
 console.log(setOfUniqueValues);
 
 console.log(setOfUniqueValues.size);
+
+//i can also lopp through the set
+setOfUniqueValues.forEach(function(value){
+    console.log('value is ', value);
+})
